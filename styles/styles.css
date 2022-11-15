@@ -1,0 +1,24 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+  background-color: #ffffff;
+  font-weight: 400;
+}
+
+.portfolio-header {
+  color: green;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.current {
+  color: #ff6c00;
+}
+
+.menu-link {
+  background-color: #ff6c00;
+}

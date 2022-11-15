@@ -1,0 +1,140 @@
+/* Селектори:
+-універсальний *
+-елементу(тегу) h1
+-id  #
+-класу .CLASS
+-атрибуту  [href] [href="http//..."]
+-нащадка . . 
+-дочірній >
+-сестринський +
+-сусідній ~
+*/
+
+/* * {
+  margin: 0;
+} */
+
+/* p {
+  color: aquamarine;
+  margin: 20px;
+} */
+
+/* #main-link {
+  color: brown;
+} */
+
+/* .item {
+  background-color: blueviolet;
+}
+.link {
+  background-color: beige;
+}
+.main-link {
+  color: black;
+} */
+
+/* [href="https://www.google.com.ua/?hl=uk"]
+{
+  background-color: blue;
+} */
+
+/* .list .link {
+  color: teal;
+}
+
+.test {
+  background-color: blue;
+} */
+
+/* ul a {
+  color: cadetblue;
+} */
+
+/* .list > .link {
+  color: aqua;
+}  */
+
+/* .my-item + .item {
+  background-color: blue;
+} */
+/* .link {
+  color: brown;
+} */
+
+/* .my-item ~ .link {
+  background-color: blue;
+} */
+
+/* #link {
+  color: aqua;
+} */
+
+/* .link {
+  color: aqua;
+}
+.favourite {
+  color: tomato;
+}
+
+a {
+  color: antiquewhite;
+} */
+
+/* .link {
+  color: aqua;
+  font-style: italic;
+} */
+
+/* body {
+  color: yellowgreen;
+}
+
+address {
+  font-style: normal;
+} */
+
+/* .link:hover {
+  color: brown;
+}
+
+.title:hover {
+  color: blueviolet;
+} */
+
+/* img:hover {
+  transform: rotate(50deg);
+} */
+/* .link:focus {
+  color: blue;
+}
+
+.title:focus {
+  color: yellowgreen;
+}
+
+button:focus {
+  background-color: aquamarine;
+} */
+
+/* button:active {
+  background-color: green;
+} */
+
+/* a:visited {
+  color: green;
+} */
+/* .description::first-line {
+  color: yellow;
+}
+
+.description::first-letter {
+  color: green;
+} */
+/* body {
+  background-color: aqua;
+}
+
+.description::selection {
+  background-color: teal;
+  color: brown;
+} */
