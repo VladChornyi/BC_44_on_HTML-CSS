@@ -8,6 +8,25 @@
   --accent-color: #ff6c00;
 }
 
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+
 .list {
   list-style: none;
 }
@@ -25,6 +44,14 @@ body {
 }
 
 /* ==================== COMPONENTS ==================== */
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .modal-btn {
   font-weight: 600;
   font-size: 12px;
@@ -111,11 +138,36 @@ body {
 /* ==================== /COMPONENTS ==================== */
 
 /* ==================== HEADER ==================== */
+.page-header {
+}
+
+.page-header-container {
+  display: flex;
+  align-items: center;
+}
+
+.page-navigation {
+  display: flex;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  margin-left: 114px;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 27px;
+}
+
 .menu-link {
+  display: inline-block;
   font-weight: 600;
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.1em;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .menu-link:hover,

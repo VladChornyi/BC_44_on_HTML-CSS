@@ -138,3 +138,59 @@ button:focus {
   background-color: teal;
   color: brown;
 } */
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.block {
+  box-sizing: border-box;
+  width: 300px;
+  height: 300px;
+  background-color: teal;
+  padding: 40px;
+  border: 10px solid tomato;
+}
+
+.title {
+  padding-top: 30px;
+  background-color: bisque;
+}
+/* 
+.item:first-child {
+  background-color: bisque;
+  margin-bottom: 20px;
+} */
+/* 
+.item:last-child {
+  background-color: aquamarine;
+  margin-bottom: 20px;
+} */
+
+/* a*n+b */
+/* 2*0=0
+2*1=2
+2*2=4
+2*3=6
+2*4=8 */
+
+/* .item:not(:nth-last-child(-n + 3)) {
+  background-color: aquamarine;
+  margin-bottom: 20px;
+} */
