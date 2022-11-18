@@ -30,9 +30,17 @@
 8. Підключення стилів тексту, параметри тексту
 9. CSS змінні -->
 
-1. Блокова модель, box-sizing
+<!-- 1. Блокова модель, box-sizing
 2. Нормалізація стилів
 3. Додаткове скидання стилів
 4. Марджини та падінги
 5. Структурні псевдокласи (first-child, last-child, nth-child, nth-last-child)
-6. Flex -diresction, -justify-content -align-items -wrap
+6. Flex -diresction, -justify-content -align-items -wrap -->
+
+- Align content
+- flex-grow
+- flex-shrink
+- order
+- align-self
+
+7. Margin auto
