@@ -37,10 +37,18 @@
 5. Структурні псевдокласи (first-child, last-child, nth-child, nth-last-child)
 6. Flex -diresction, -justify-content -align-items -wrap -->
 
-- Align content
+<!-- - Align content
 - flex-grow
 - flex-shrink
 - order
 - align-self
 
-7. Margin auto
+7. Margin auto -->
+
+1. Зображення (контентні/декоративні, методи підключення) -repeat -position -size -origin
+   (padding-box!, content-box, border-box) -clip (padding-box!, content-box, border-box)
+2. Багатошарові фонові зображення
+3. Linear-gradient, radial-gradient(ellipse, circle)
+4. Фонові підкладки
+5. Псевдоелементи
+6. Векторна/растрова графіка

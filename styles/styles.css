@@ -325,6 +325,12 @@ body {
 .advantages-right-side {
   flex-basis: calc((100% - 30px) / 2);
 }
+.our-link:hover {
+  color: #ff6c00;
+}
+.our-link:hover svg {
+  fill: #ff6c00;
+}
 
 .advantages-list {
   display: flex;
