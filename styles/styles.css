@@ -661,6 +661,7 @@ body {
 /* ==================== MODAL ==================== */
 .modal {
   position: absolute;
+  padding: 40px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -700,4 +701,57 @@ body {
   fill: var(--accent-color);
 }
 
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.modal-wrapper {
+  position: relative;
+}
+.modal-input {
+  width: 100%;
+}
+
+.modal-icon {
+  position: absolute;
+  top: 8px;
+  left: 15px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #ff6c00;
+}
+
+.modal-input:focus {
+  outline: none;
+  border-color: #ff6c00;
+}
+
+.modal-input:focus + .modal-icon {
+  background-color: aquamarine;
+}
+.modal-privacy {
+  cursor: pointer;
+}
+
+textarea {
+  resize: none;
+}
+.modal-checkbox:checked + label .custom-checkbox {
+  border-color: transparent;
+  background-color: var(--accent-color);
+  background-image: url(../images/icons/ok.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.custom-checkbox {
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
 /* ==================== /MODAL ==================== */
