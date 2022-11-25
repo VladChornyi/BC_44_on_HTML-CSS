@@ -56,5 +56,18 @@
 <!-- 1. Position -relative -absolute a) центрування absolute b) схлопування елементів c) z-index
 2. Position fixed -->
 
-3. transform (translate, rotate(perspective), origin, scale,skew)
-4. transition
+<!-- 3. transform (translate, rotate(perspective), origin, scale,skew)
+4. transition -->
+
+<!-- 1. Form (action), buttons(submit, reset)
+2. Input -text, number, email, tel,range
+3. Placeholder
+4. required, name, value,minlength, maxlength , pattern("^[a-zA-Zа-яА-ЯїЇіІ]+$",
+   "[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"),
+5. Textarea (cols, rows, resize) -->
+
+<!-- 6. Input radio, checkbox(name, value, checked)
+7. fieldset,legend
+8. label(id, for) -->
+
+<!-- 9. select(multiple), option(optgroup +label, value, selected, disabled) -->

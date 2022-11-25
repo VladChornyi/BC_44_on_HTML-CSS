@@ -312,7 +312,7 @@ img {
   fill: currentColor;
 } */
 
-.wrapper {
+/* .wrapper {
   margin: 70px auto;
   width: 600px;
   height: 650px;
@@ -320,8 +320,8 @@ img {
   font-size: 25px;
   font-weight: 700;
   perspective: 500px;
-}
-.box {
+} */
+/* .box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -339,7 +339,7 @@ img {
   width: 150px;
   height: 150px;
   /* position: absolute; */
-  top: 0px;
+/* top: 0px;
   left: 0px;
 }
 .box3 {
@@ -350,18 +350,18 @@ img {
 
 .translate {
   background-color: teal;
-}
-.rotate {
+} */
+/* .rotate {
   background-color: blueviolet;
-  transition: transform ease-in-out 1s 0s, background ease-in-out 1s 0s, color ease-in-out 1s 0s;
+  transition: transform ease-in-out 1s 0s, background ease-in-out 1s 0s, color ease-in-out 1s 0s; */
 
-  /* transition-property: transform, background, color;
+/* transition-property: transform, background, color;
 
   transition-timing-function: cubic-bezier(0, 1.6, 1, -0.47);
   transition-duration: 1500ms;
   transition-delay: 0; */
-}
-.rotate:hover {
+/* } */
+/* .rotate:hover {
   background-color: cadetblue;
   transform: rotate(360deg);
   color: brown;
@@ -369,47 +369,52 @@ img {
 .scale {
   background-color: coral;
   /* transform: scale(2); */
+/* } */
+.wrapper {
 }
-
-.skew {
-  background-color: gold;
-  transform: skewY(30deg);
-}
-
-.relative {
+.form {
   margin: 0 auto;
-  border: 2px dashed tomato;
-  width: 150px;
-  height: 300px;
-
-  position: relative;
+  width: 400px;
+  height: 600px;
+  padding: 25px;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
-.text {
-  position: absolute;
-
-  background-color: rgba(255, 255, 255, 1);
-  z-index: 2;
+button {
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 18px;
 }
-body {
-  padding-top: 80px;
+.input {
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 15px;
 }
 
-.subtitle {
+.submit-btn {
+  background-color: #3498db;
+}
+
+.reset-btn {
+  background-color: #e74c3c;
+}
+.buttons {
+  text-align: center;
+}
+
+.message {
   width: 100%;
-  position: fixed;
-  height: 80px;
-  top: 0;
-  left: 0;
-  /* top: 50%;
-  left: 50%; */
-  /* transform: translate(-50%, -50%); */
-  z-index: 100;
-
-  color: rgb(192, 59, 2);
-  background-color: rgba(30, 35, 40, 1);
+  height: 150px;
+  border-radius: 5px;
+  resize: none;
+  padding-left: 15px;
 }
-.popup {
-  position: fixed;
-  top: 50%;
-  right: 30px;
+
+.box {
+  display: flex;
+  gap: 15px;
 }
