@@ -18,10 +18,15 @@
   }
 }
 
-.modal-btn-theme-light {
+.modal-btn--theme-light {
   color: var(--primary-text-color-theme-light);
 }
 
-.modal-btn-theme-dark {
-  color: var(--primary-text-color-theme-dark);
+.modal-btn--theme-dark {
+  display: none;
+
+  @include tablet {
+    display: inline-block;
+    color: var(--primary-text-color-theme-light);
+  }
 }

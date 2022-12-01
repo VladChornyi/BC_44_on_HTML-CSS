@@ -1,7 +1,28 @@
 .container {
-  width: 1200px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+
+  @include mobile {
+    width: 448px;
+  }
+
+  @include tablet {
+    width: 720px;
+  }
+
+  @include desktop {
+    width: 1200px;
+  }
 }
+
+// .todo {
+//   display: none;
+
+//   @include desktop {
+//     display: block;
+//     padding: 94px 0;
+//   }
+// }

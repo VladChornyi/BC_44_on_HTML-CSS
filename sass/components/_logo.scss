@@ -1,0 +1,7 @@
+.logo-img {
+  fill: var(--primary-text-color-theme-dark);
+
+  @include tablet {
+    fill: var(--primary-text-color-theme-light);
+  }
+}

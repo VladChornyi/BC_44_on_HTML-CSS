@@ -1,0 +1,32 @@
+.menu-btn {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @include tablet {
+    display: none;
+  }
+}
+
+.menu-btn__icon {
+  width: 40px;
+  height: 40px;
+
+  .menu-btn:hover &,
+  .menu-btn:focus & {
+    fill: var(--accent-color);
+  }
+}
+
+.menu-btn__icon--theme-dark {
+  fill: var(--primary-text-color-theme-dark);
+}
+
+.menu-btn__icon--theme-light {
+  fill: var(--primary-text-color-theme-light);
+}
