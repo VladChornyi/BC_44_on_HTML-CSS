@@ -40,6 +40,8 @@ ol {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .list {
@@ -905,4 +907,34 @@ body {
   line-height: 1.67;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color-theme-dark);
+}
+
+.gallery-subtitle {
+  margin-bottom: 44px;
+}
+
+.gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  flex-direction: column;
+}
+@media screen and (min-width: 720px) {
+  .gallery-list {
+    flex-direction: row;
+  }
+}
+
+.gallery-list-item {
+  flex-basis: calc((100% - 0px) / 1);
+}
+@media screen and (min-width: 720px) {
+  .gallery-list-item {
+    flex-basis: calc((100% - 30px) / 2);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .gallery-list-item {
+    flex-basis: calc((100% - 90px) / 4);
+  }
 }/*# sourceMappingURL=main.css.map */
