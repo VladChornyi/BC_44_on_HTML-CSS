@@ -53,71 +53,128 @@
   </header>
   <main>
     <!-- HERO -->
-    <!-- <section class="hero">
-        <div class="container hero-container">
-          <div class="hero-left-side">
-            <ul class="media-list hero-media-list list">
-              <li class="media-list-item">
-                <a class="media-list-link link" href="" lang="en">Instagram</a>
-              </li>
-              <li class="media-list-item">
-                <a class="media-list-link link" href="" lang="en">Youtube</a>
-              </li>
-            </ul>
-          </div>
-          <div class="hero-right-side">
-            <p class="subtitle subtitle-theme-dark" lang="en">A hair salon for men in Kyiv</p>
-            <h1 class="main-title" lang="en">BarberShop</h1>
-            <p class="section-description section-description-theme-dark hero-section-description">
-              We are experts in trendy men’s haircuts. We work quickly, carefully and with style.
-            </p>
-          </div>
+    <section class="hero">
+      <div class=" hero-container">
+        <!-- <div class="hero-left-side">
+          <ul class="media-list hero-media-list list">
+            <li class="media-list-item">
+              <a class="media-list-link link" href="" lang="en">Instagram</a>
+            </li>
+            <li class="media-list-item">
+              <a class="media-list-link link" href="" lang="en">Youtube</a>
+            </li>
+          </ul>
         </div>
-      </section> -->
+        <div class="hero-right-side">
+          <p class="subtitle subtitle-theme-dark" lang="en">A hair salon for men in Kyiv</p>
+          <h1 class="main-title" lang="en">BarberShop</h1>
+          <p class="section-description section-description-theme-dark hero-section-description">
+            We are experts in trendy men’s haircuts. We work quickly, carefully and with style.
+          </p>
+        </div> -->
+      </div>
+    </section>
     <!-- ABOUT -->
 
-    <!-- <section class="about section" id="about">
-        <div class="container about-container">
-          <div class="about-left-side">
-            <ul class="about-gallery list">
-              <li class="about-gallery-item">
-                <img
-                  class="about-gallery-img"
-                  src="./images/about/about-img-1.jpg"
-                  alt="майстер голить бороду клієнту"
-                  width="270"
-                  height="445"
-                />
-              </li>
-              <li class="about-gallery-item">
-                <img
-                  class="about-gallery-img"
-                  src="./images/about/about-img-2.jpg"
-                  alt="майстер підстригає клієнта"
-                  width="270"
-                  height="445"
-                />
-              </li>
-            </ul>
-          </div>
-          <div class="about-right-side">
-            <h2 class="subtitle subtitle-theme-light">About</h2>
-            <h3 class="title title-theme-light">Best Barbershop in your city</h3>
-            <p
-              class="section-description section-description-theme-light about-section-description"
-            >
-              If you want to add more confidence to your image, you should definitely visit us.
-            </p>
-            <p class="about-text">
-              We are a team that never stops at what has been achieved and are thirsty for changes.
-              And when you fall into the hands of our master, you will never be the same again. We
-              are a team that is always "on the same wave" with clients. Therefore, we are always
-              ready to improve everyone who comes to us!
-            </p>
-            <button class="modal-btn modal-btn-theme-light" type="button">ONLINE-BOOKING</button>
-          </div>
+    <section class="about section" id="about">
+      <div class="container about-container">
+        <div class="about-left-side">
+          <ul class="about-gallery list">
+            <li class="about-gallery-item">
+              <!-- <img class="about-gallery-img" src="./images/about/about-img-1.jpg" alt="майстер голить бороду клієнту"
+                width="270" height="445" /> -->
+
+
+              <picture>
+                <source srcset="
+                    ./images/about/about-1200-1@1x.webp 1x,
+                    ./images/about/about-1200-1@2x.webp 2x
+                    " media="(min-width: 1200px)" type="image/webp" />
+
+                <source srcset="
+                    ./images/about/about-1200-1@1x.jpg 1x,
+                    ./images/about/about-1200-1@1x.jpg 2x
+                    " media="(min-width: 1200px)" />
+
+                <source srcset="
+                     ./images/about/about-710-1@1x.webp 1x,
+                    ./images/about/about-710-1@2x.webp 2x" media=" (min-width: 710px)" type="image/webp" />
+
+                <source srcset="
+                                        ./images/about/about-710-1@1x.jpg 1x,
+                                        ./images/about/about-710-1@1x.jpg 2x
+                                        " media="(min-width: 710px)" />
+
+                <source srcset="
+                 ./images/about/about-418-1@1x.webp 1x,
+                 ./images/about/about-418-1@2x.webp 2x
+                 " media="(min-width: 418px)" type="image/webp" />
+
+                <source srcset="
+                  ./images/about/about-418-1@1x.jpg 1x,
+                  ./images/about/about-418-1@1x.jpg 2x
+                  " media="(min-width: 418px)" />
+
+                <img class="about-gallery-img" src="./images/about/about-418-1@1x.jpg"
+                  alt="майстер голить бороду клієнту" />
+              </picture>
+
+
+            </li>
+            <li class="about-gallery-item">
+              <picture>
+                <source srcset="
+                                    ./images/about/about-1200-2@1x.webp 1x,
+                                    ./images/about/about-1200-2@2x.webp 2x
+                                    " media="(min-width: 1200px)" type="image/webp" />
+
+                <source srcset="
+                                    ./images/about/about-1200-2@1x.jpg 1x,
+                                    ./images/about/about-1200-2@1x.jpg 2x
+                                    " media="(min-width: 1200px)" />
+
+                <source srcset="
+                                     ./images/about/about-710-2@1x.webp 1x,
+                                    ./images/about/about-710-2@2x.webp 2x" media=" (min-width: 710px)"
+                  type="image/webp" />
+
+                <source srcset="
+                                                        ./images/about/about-710-2@1x.jpg 1x,
+                                                        ./images/about/about-710-2@1x.jpg 2x
+                                                        " media="(min-width: 710px)" />
+
+                <source srcset="
+                                 ./images/about/about-418-2@1x.webp 1x,
+                                 ./images/about/about-418-2@2x.webp 2x
+                                 " media="(min-width: 418px)" type="image/webp" />
+
+                <source srcset="
+                                  ./images/about/about-418-2@1x.jpg 1x,
+                                  ./images/about/about-418-2@1x.jpg 2x
+                                  " media="(min-width: 418px)" />
+
+                <img class="about-gallery-img" src="./images/about/about-418-2@1x.jpg"
+                  alt="майстер голить бороду клієнту" />
+              </picture>
+            </li>
+          </ul>
         </div>
-      </section> -->
+        <div class="about-right-side">
+          <h2 class="subtitle subtitle-theme-light">About</h2>
+          <h3 class="title title-theme-light">Best Barbershop in your city</h3>
+          <p class="section-description section-description-theme-light about-section-description">
+            If you want to add more confidence to your image, you should definitely visit us.
+          </p>
+          <p class="about-text">
+            We are a team that never stops at what has been achieved and are thirsty for changes.
+            And when you fall into the hands of our master, you will never be the same again. We
+            are a team that is always "on the same wave" with clients. Therefore, we are always
+            ready to improve everyone who comes to us!
+          </p>
+          <button class="modal-btn modal-btn-theme-light" type="button">ONLINE-BOOKING</button>
+        </div>
+      </div>
+    </section>
     <!-- SERVICES -->
     <!-- <section class="services section" id="services">
       <div class="container">
@@ -200,143 +257,172 @@
       </div>
     </section>
     <!-- EMPLOYEES -->
-    <!-- <section class="employees-section section" id="employees">
-        <div class="container">
-          <p class="suptitle suptitle-theme-light">For true enjoyers of the atmosphere</p>
-          <h2 class="title title-theme-light employees-title">Our barbers</h2>
-          <ul class="employees list">
-            <li class="employees-card">
-              <img
-                class="employees-photo"
-                src="./images/employees/john-smith.jpg"
-                alt="майстер стриже клієнта"
-                width="370"
-                height="346"
-              />
-              <div class="employees-content-wrapper">
-                <h3 class="employees-name" lang="en">John Smith</h3>
-                <p class="employees-position" lang="en">Extreme Barber</p>
-                <ul class="social-list list">
-                  <li class="social-list-item">
-                    <a href="" class="social-list-link">
-                      <svg class="social-list-icon" width="20" height="20">
-                        <use href="./images/sprite.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list-item">
-                    <a href="" class="social-list-link">
-                      <svg class="social-list-icon" width="20" height="20">
-                        <use href="./images/sprite.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list-item">
-                    <a href="" class="social-list-link">
-                      <svg class="social-list-icon" width="20" height="20">
-                        <use href="./images/sprite.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list-item">
-                    <a href="" class="social-list-link">
-                      <svg class="social-list-icon" width="20" height="20">
-                        <use href="./images/sprite.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="employees-card">
-              <img
-                class="employees-photo"
-                src="./images/employees/michele-doe.jpg"
-                alt="майстер стриже клієнта"
-                width="370"
-                height="346"
-              />
-              <div class="employees-content-wrapper">
-                <h3 class="employees-name" lang="en">Michele Doe</h3>
-                <p class="employees-position" lang="en">Extreme Barber</p>
-                <ul class="social-list list">
-                  <li class="social-list-item">
-                    <a href="" class="social-list-link">
-                      <svg class="social-list-icon" width="20" height="20">
-                        <use href="./images/sprite.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list-item">
-                    <a href="" class="social-list-link">
-                      <svg class="social-list-icon" width="20" height="20">
-                        <use href="./images/sprite.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list-item">
-                    <a href="" class="social-list-link">
-                      <svg class="social-list-icon" width="20" height="20">
-                        <use href="./images/sprite.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list-item">
-                    <a href="" class="social-list-link">
-                      <svg class="social-list-icon" width="20" height="20">
-                        <use href="./images/sprite.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="employees-card">
-              <img
-                class="employees-photo"
-                src="./images/employees/alan-black.jpg"
-                alt="майстер стриже клієнта"
-                width="370"
-                height="346"
-              />
-              <div class="employees-content-wrapper">
-                <h3 class="employees-name" lang="en">Alan Black</h3>
-                <p class="employees-position" lang="en">Extreme Barber</p>
-                <ul class="social-list list">
-                  <li class="social-list-item">
-                    <a href="" class="social-list-link">
-                      <svg class="social-list-icon" width="20" height="20">
-                        <use href="./images/sprite.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list-item">
-                    <a href="" class="social-list-link">
-                      <svg class="social-list-icon" width="20" height="20">
-                        <use href="./images/sprite.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list-item">
-                    <a href="" class="social-list-link">
-                      <svg class="social-list-icon" width="20" height="20">
-                        <use href="./images/sprite.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list-item">
-                    <a href="" class="social-list-link">
-                      <svg class="social-list-icon" width="20" height="20">
-                        <use href="./images/sprite.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section> -->
+    <section class="employees-section section" id="employees">
+      <div class="container">
+        <p class="subtitle subtitle-theme-light">For true enjoyers of the atmosphere</p>
+        <h2 class="title title-theme-light employees-title">Our barbers</h2>
+        <ul class="employees list">
+          <li class="employees-card">
+
+            <picture>
+              <source
+                srcset="./images/employees/employees-1200-1@1x.jpg 1x, ./images/employees/employees-1200-1@2x.jpg 2x"
+                media="(min-width: 1200px)" />
+
+              <source
+                srcset="./images/employees/employees-710-1@1x.jpg 1x, ./images/employees/employees-710-1@2x.jpg 2x"
+                media="(min-width: 710px)" />
+
+              <source
+                srcset="./images/employees/employees-448-1@1x.jpg 1x, ./images/employees/employees-448-1@2x.jpg 2x" />
+
+              <img class="employees-photo" src="./images/employees/employees-448-1@1x.jpg"
+                alt="майстер стриже клієнта" />
+            </picture>
+
+            <div class="employees-content-wrapper">
+              <h3 class="employees-name" lang="en">John Smith</h3>
+              <p class="employees-position" lang="en">Extreme Barber</p>
+              <ul class="social-list list">
+                <li class="social-list-item">
+                  <a href="" class="social-list-link">
+                    <svg class="social-list-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list-item">
+                  <a href="" class="social-list-link">
+                    <svg class="social-list-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list-item">
+                  <a href="" class="social-list-link">
+                    <svg class="social-list-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list-item">
+                  <a href="" class="social-list-link">
+                    <svg class="social-list-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="employees-card">
+
+            <picture>
+              <source
+                srcset="./images/employees/employees-1200-2@1x.jpg 1x, ./images/employees/employees-1200-2@2x.jpg 2x"
+                media="(min-width: 1200px)" />
+
+              <source
+                srcset="./images/employees/employees-710-2@1x.jpg 1x, ./images/employees/employees-710-2@2x.jpg 2x"
+                media="(min-width: 710px)" />
+
+              <source
+                srcset="./images/employees/employees-448-2@1x.jpg 1x, ./images/employees/employees-448-2@2x.jpg 2x" />
+
+              <img class="employees-photo" src="./images/employees/employees-448-2@1x.jpg"
+                alt="майстер стриже клієнта" />
+            </picture>
+
+            <div class="employees-content-wrapper">
+              <h3 class="employees-name" lang="en">Michele Doe</h3>
+              <p class="employees-position" lang="en">Extreme Barber</p>
+              <ul class="social-list list">
+                <li class="social-list-item">
+                  <a href="" class="social-list-link">
+                    <svg class="social-list-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list-item">
+                  <a href="" class="social-list-link">
+                    <svg class="social-list-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list-item">
+                  <a href="" class="social-list-link">
+                    <svg class="social-list-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list-item">
+                  <a href="" class="social-list-link">
+                    <svg class="social-list-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="employees-card">
+            <picture>
+              <source
+                srcset="./images/employees/employees-1200-3@1x.jpg 1x, ./images/employees/employees-1200-3@2x.jpg 2x"
+                media="(min-width: 1200px)" />
+
+              <source
+                srcset="./images/employees/employees-710-3@1x.jpg 1x, ./images/employees/employees-710-3@2x.jpg 2x"
+                media="(min-width: 710px)" />
+
+              <source
+                srcset="./images/employees/employees-448-3@1x.jpg 1x, ./images/employees/employees-448-3@2x.jpg 2x" />
+
+              <img class="employees-photo" src="./images/employees/employees-448-3@1x.jpg"
+                alt="майстер стриже клієнта" />
+            </picture>
+
+            <div class="employees-content-wrapper">
+              <h3 class="employees-name" lang="en">Alan Black</h3>
+              <p class="employees-position" lang="en">Extreme Barber</p>
+              <ul class="social-list list">
+                <li class="social-list-item">
+                  <a href="" class="social-list-link">
+                    <svg class="social-list-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list-item">
+                  <a href="" class="social-list-link">
+                    <svg class="social-list-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list-item">
+                  <a href="" class="social-list-link">
+                    <svg class="social-list-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list-item">
+                  <a href="" class="social-list-link">
+                    <svg class="social-list-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
     <!-- PORTFOLIO -->
     <section class="gallery section">
       <div class="container">

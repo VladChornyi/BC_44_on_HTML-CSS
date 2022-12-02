@@ -1,5 +1,41 @@
 .hero-container {
   display: flex;
+  height: 580px;
+  background-color: grey;
+
+  background-size: cover;
+  background-position: center;
+  max-width: 1070px;
+  margin: 0 auto;
+
+  background-image: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)),
+    url('../images/hero/hero-448@1x.jpg');
+
+  @include retina-bgi {
+    background-image: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)),
+      url('../images/hero/hero-448@2x.jpg');
+  }
+
+  @include mobile {
+    background-image: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)),
+      url('../images/hero/hero-710@1x.jpg');
+
+    @include retina-bgi {
+      background-image: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)),
+        url('../images/hero/hero-710@2x.jpg');
+    }
+  }
+
+  @include tablet {
+    height: 680px;
+    background-image: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)),
+      url('../images/hero/hero-1200@1x.jpg');
+
+    @include retina-bgi {
+      background-image: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)),
+        url('../images/hero/hero-1200@2x.jpg');
+    }
+  }
 }
 
 .hero-left-side {

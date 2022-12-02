@@ -26,6 +26,7 @@
 
 .subtitle-theme-light {
   color: var(--secondary-text-color-theme-light);
+
   &::before {
     background-color: var(--secondary-text-color-theme-light);
   }
